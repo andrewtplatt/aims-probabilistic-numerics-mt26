@@ -1,0 +1,19 @@
+[project]
+name = "probabilistic-numerics"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Andrew Platt", email = "andrew.platt@eng.ox.ac.uk" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "jax>=0.12.0.1",
+    "line-profiler>=5.1.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.5",
+    "pandas>=3.1.1",
+    "pygobject>=3.58.1",
+    "scipy>=1.18.1",
+]
